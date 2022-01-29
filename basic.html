@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=JetBrains+Mono&display=swap');
+
+        * {
+            /* cut spaces */
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            font-family: 'Hahmlet', serif;
+            background-color: ghostwhite;
+            /* in emails limit to 800px */
+            max-width: 800px;
+            /* center it */
+            margin: 0 auto;
+            padding: 3%;
+        }
+
+        img {
+            max-width: 100%;
+        }
+        header {
+            width: 98%;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+
+            
+        }
+        #logo {
+            max-width:100px
+        }
+
+        #wrap {
+            background-color: rgb(244, 244, 255);
+        }
+
+        #social {
+            float: right;
+            margin: 3% 2% 4% 3%;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+        }
+
+        #social li {
+            margin-right: 20px;
+            margin-top: 15px;
+        }
+
+        h1, p {
+            margin:3%;
+        }
+
+        .btn {
+            margin-top: -60px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            float: right;
+            background-color:green;
+            color:white;
+            text-decoration: none;
+            font-weight: 800;
+            border-radius: 5px;
+            padding: 6px 12px;
+            letter-spacing: 1px;
+        }
+
+        hr {
+        height: 1px;
+        background-color: #303840;
+        clear: both;
+        width: 96%;
+        margin: auto;
+      }
+        
+      #contact {
+          text-align: center;
+          padding-bottom: 3%;
+          font-size: 12px;
+      }
+        
+    </style>
+</head>
+
+<!-- Notes You can't use external resourses like css, js -->
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="logo">
+                <img src="https://img.icons8.com/stickers/100/000000/year-of-dragon.png"/>
+            </div>
+            <div>
+                <ul id="social">
+                    <li>
+                        <a href="#">
+                            <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.icons8.com/fluency/48/000000/github.png"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(20).webp" alt="">
+        </div>
+        <div>
+            <h1> Create your emails in HTML</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum nemo qui laboriosam itaque consectetur doloremque eum illo doloribus ipsa, molestias quae. Atque molestias at perspiciatis numquam, quisquam voluptatum vero eveniet!</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, incidunt itaque. Odit deleniti earum ex quidem fugit eos mollitia temporibus omnis distinctio magnam voluptate eligendi consequuntur provident quod, ipsum nostrum.
+                <br>  <br>  Thank You in advance 
+                <br>Panagiotis Kontos 
+            </p>
+
+            
+        </div>
+
+        <a href="#" class="btn">learn more</a>
+    </div>
+
+    <hr />
+
+
+    <footer>
+        <p id="contact">
+            Panagiotis Kontos <br>
+            panos96el@gmail.com <br>
+            Athens, Greece <br>
+        
+        </p>
+    </footer>
+</body>
+</html>
+
